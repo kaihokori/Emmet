@@ -22,7 +22,6 @@
 		DC6415F12BE5558300582EFB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415F02BE5558300582EFB /* MapView.swift */; };
 		DC6415F32BE5558C00582EFB /* MapSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415F22BE5558C00582EFB /* MapSearchView.swift */; };
 		DC6415F52BE5559D00582EFB /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415F42BE5559D00582EFB /* DataController.swift */; };
-		DC6415F92BE555BA00582EFB /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC6415F72BE555BA00582EFB /* Database.xcdatamodeld */; };
 		DC6415FB2BE556C400582EFB /* CountryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415FA2BE556C400582EFB /* CountryInfo.swift */; };
 		DC6415FE2BE556E900582EFB /* CountryRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415FD2BE556E900582EFB /* CountryRegion.swift */; };
 		DC6416002BE556F300582EFB /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415FF2BE556F300582EFB /* LocationManager.swift */; };
@@ -31,6 +30,7 @@
 		DC6416062BE5570D00582EFB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6416052BE5570D00582EFB /* Utils.swift */; };
 		DC6416082BE5571400582EFB /* TimezoneHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6416072BE5571400582EFB /* TimezoneHelper.swift */; };
 		DC64160A2BE5572600582EFB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC6416092BE5572600582EFB /* Settings.bundle */; };
+		DC7F0A912BE56244006FE2ED /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC7F0A8F2BE56244006FE2ED /* Database.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +52,6 @@
 		DC6415F02BE5558300582EFB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		DC6415F22BE5558C00582EFB /* MapSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchView.swift; sourceTree = "<group>"; };
 		DC6415F42BE5559D00582EFB /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
-		DC6415F82BE555BA00582EFB /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
 		DC6415FA2BE556C400582EFB /* CountryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfo.swift; sourceTree = "<group>"; };
 		DC6415FD2BE556E900582EFB /* CountryRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRegion.swift; sourceTree = "<group>"; };
 		DC6415FF2BE556F300582EFB /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		DC6416052BE5570D00582EFB /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		DC6416072BE5571400582EFB /* TimezoneHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimezoneHelper.swift; sourceTree = "<group>"; };
 		DC6416092BE5572600582EFB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		DC7F0A902BE56244006FE2ED /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +135,7 @@
 		DC6415F62BE555AA00582EFB /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				DC6415F72BE555BA00582EFB /* Database.xcdatamodeld */,
+				DC7F0A8F2BE56244006FE2ED /* Database.xcdatamodeld */,
 				DC6415F42BE5559D00582EFB /* DataController.swift */,
 			);
 			path = Data;
@@ -226,7 +226,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC6415F92BE555BA00582EFB /* Database.xcdatamodeld in Sources */,
 				DC6416002BE556F300582EFB /* LocationManager.swift in Sources */,
 				DC6415E12BE5551900582EFB /* EventRowView.swift in Sources */,
 				DC6415EB2BE5555900582EFB /* ExplorerView.swift in Sources */,
@@ -234,6 +233,7 @@
 				DC6416082BE5571400582EFB /* TimezoneHelper.swift in Sources */,
 				DC6415F12BE5558300582EFB /* MapView.swift in Sources */,
 				DC6415E72BE5554700582EFB /* EventDetailView.swift in Sources */,
+				DC7F0A912BE56244006FE2ED /* Database.xcdatamodeld in Sources */,
 				DC6416022BE556FC00582EFB /* BinaryDocument.swift in Sources */,
 				DC6415FE2BE556E900582EFB /* CountryRegion.swift in Sources */,
 				DC6415F32BE5558C00582EFB /* MapSearchView.swift in Sources */,
@@ -477,14 +477,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DC6415F72BE555BA00582EFB /* Database.xcdatamodeld */ = {
+		DC7F0A8F2BE56244006FE2ED /* Database.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				DC6415F82BE555BA00582EFB /* Database.xcdatamodel */,
+				DC7F0A902BE56244006FE2ED /* Database.xcdatamodel */,
 			);
-			currentVersion = DC6415F82BE555BA00582EFB /* Database.xcdatamodel */;
+			currentVersion = DC7F0A902BE56244006FE2ED /* Database.xcdatamodel */;
 			name = Database.xcdatamodeld;
-			path = /Users/kylegraham/Desktop/Emmet/Emmet/Data/Database.xcdatamodeld;
+			path = /Users/kylegraham/Downloads/Emmet/Emmet/Data/Database.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
