@@ -8,18 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		DC64157A2BE5514D00582EFB /* EmmetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415792BE5514D00582EFB /* EmmetApp.swift */; };
-		DC64157C2BE5514D00582EFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64157B2BE5514D00582EFB /* ContentView.swift */; };
 		DC64157E2BE5514E00582EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC64157D2BE5514E00582EFB /* Assets.xcassets */; };
 		DC6415822BE5514E00582EFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6415812BE5514E00582EFB /* Preview Assets.xcassets */; };
+		DC6415DE2BE5546100582EFB /* ItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415DD2BE5546100582EFB /* ItineraryView.swift */; };
+		DC6415E12BE5551900582EFB /* EventRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415E02BE5551900582EFB /* EventRowView.swift */; };
+		DC6415E32BE5552700582EFB /* EventAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415E22BE5552700582EFB /* EventAddView.swift */; };
+		DC6415E52BE5553400582EFB /* EventEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415E42BE5553400582EFB /* EventEditView.swift */; };
+		DC6415E72BE5554700582EFB /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415E62BE5554700582EFB /* EventDetailView.swift */; };
+		DC6415E92BE5555000582EFB /* DocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415E82BE5555000582EFB /* DocumentView.swift */; };
+		DC6415EB2BE5555900582EFB /* ExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415EA2BE5555900582EFB /* ExplorerView.swift */; };
+		DC6415ED2BE5556500582EFB /* CountryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415EC2BE5556500582EFB /* CountryRowView.swift */; };
+		DC6415EF2BE5557900582EFB /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415EE2BE5557900582EFB /* CountryDetailView.swift */; };
+		DC6415F12BE5558300582EFB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415F02BE5558300582EFB /* MapView.swift */; };
+		DC6415F32BE5558C00582EFB /* MapSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415F22BE5558C00582EFB /* MapSearchView.swift */; };
+		DC6415F52BE5559D00582EFB /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415F42BE5559D00582EFB /* DataController.swift */; };
+		DC6415F92BE555BA00582EFB /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC6415F72BE555BA00582EFB /* Database.xcdatamodeld */; };
+		DC6415FB2BE556C400582EFB /* CountryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415FA2BE556C400582EFB /* CountryInfo.swift */; };
+		DC6415FE2BE556E900582EFB /* CountryRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415FD2BE556E900582EFB /* CountryRegion.swift */; };
+		DC6416002BE556F300582EFB /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6415FF2BE556F300582EFB /* LocationManager.swift */; };
+		DC6416022BE556FC00582EFB /* BinaryDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6416012BE556FC00582EFB /* BinaryDocument.swift */; };
+		DC6416042BE5570500582EFB /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6416032BE5570500582EFB /* ImagePickerView.swift */; };
+		DC6416062BE5570D00582EFB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6416052BE5570D00582EFB /* Utils.swift */; };
+		DC6416082BE5571400582EFB /* TimezoneHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6416072BE5571400582EFB /* TimezoneHelper.swift */; };
+		DC64160A2BE5572600582EFB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC6416092BE5572600582EFB /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC6415762BE5514D00582EFB /* Emmet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emmet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6415792BE5514D00582EFB /* EmmetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmmetApp.swift; sourceTree = "<group>"; };
-		DC64157B2BE5514D00582EFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC64157D2BE5514E00582EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC64157F2BE5514E00582EFB /* Emmet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Emmet.entitlements; sourceTree = "<group>"; };
 		DC6415812BE5514E00582EFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC6415DC2BE553F400582EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DC6415DD2BE5546100582EFB /* ItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryView.swift; sourceTree = "<group>"; };
+		DC6415E02BE5551900582EFB /* EventRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRowView.swift; sourceTree = "<group>"; };
+		DC6415E22BE5552700582EFB /* EventAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAddView.swift; sourceTree = "<group>"; };
+		DC6415E42BE5553400582EFB /* EventEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditView.swift; sourceTree = "<group>"; };
+		DC6415E62BE5554700582EFB /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		DC6415E82BE5555000582EFB /* DocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentView.swift; sourceTree = "<group>"; };
+		DC6415EA2BE5555900582EFB /* ExplorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerView.swift; sourceTree = "<group>"; };
+		DC6415EC2BE5556500582EFB /* CountryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRowView.swift; sourceTree = "<group>"; };
+		DC6415EE2BE5557900582EFB /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
+		DC6415F02BE5558300582EFB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DC6415F22BE5558C00582EFB /* MapSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchView.swift; sourceTree = "<group>"; };
+		DC6415F42BE5559D00582EFB /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		DC6415F82BE555BA00582EFB /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		DC6415FA2BE556C400582EFB /* CountryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfo.swift; sourceTree = "<group>"; };
+		DC6415FD2BE556E900582EFB /* CountryRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRegion.swift; sourceTree = "<group>"; };
+		DC6415FF2BE556F300582EFB /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DC6416012BE556FC00582EFB /* BinaryDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryDocument.swift; sourceTree = "<group>"; };
+		DC6416032BE5570500582EFB /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		DC6416052BE5570D00582EFB /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DC6416072BE5571400582EFB /* TimezoneHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimezoneHelper.swift; sourceTree = "<group>"; };
+		DC6416092BE5572600582EFB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +93,14 @@
 		DC6415782BE5514D00582EFB /* Emmet */ = {
 			isa = PBXGroup;
 			children = (
-				DC6415792BE5514D00582EFB /* EmmetApp.swift */,
-				DC64157B2BE5514D00582EFB /* ContentView.swift */,
-				DC64157D2BE5514E00582EFB /* Assets.xcassets */,
+				DC6415DC2BE553F400582EFB /* Info.plist */,
 				DC64157F2BE5514E00582EFB /* Emmet.entitlements */,
+				DC6415792BE5514D00582EFB /* EmmetApp.swift */,
+				DC6415DF2BE5546C00582EFB /* Views */,
+				DC6415F62BE555AA00582EFB /* Data */,
+				DC6415FC2BE556D400582EFB /* Helpers */,
+				DC6416092BE5572600582EFB /* Settings.bundle */,
+				DC64157D2BE5514E00582EFB /* Assets.xcassets */,
 				DC6415802BE5514E00582EFB /* Preview Content */,
 			);
 			path = Emmet;
@@ -67,6 +112,47 @@
 				DC6415812BE5514E00582EFB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC6415DF2BE5546C00582EFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC6415DD2BE5546100582EFB /* ItineraryView.swift */,
+				DC6415E02BE5551900582EFB /* EventRowView.swift */,
+				DC6415E22BE5552700582EFB /* EventAddView.swift */,
+				DC6415E42BE5553400582EFB /* EventEditView.swift */,
+				DC6415E62BE5554700582EFB /* EventDetailView.swift */,
+				DC6415E82BE5555000582EFB /* DocumentView.swift */,
+				DC6415EA2BE5555900582EFB /* ExplorerView.swift */,
+				DC6415EC2BE5556500582EFB /* CountryRowView.swift */,
+				DC6415EE2BE5557900582EFB /* CountryDetailView.swift */,
+				DC6415F02BE5558300582EFB /* MapView.swift */,
+				DC6415F22BE5558C00582EFB /* MapSearchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC6415F62BE555AA00582EFB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DC6415F72BE555BA00582EFB /* Database.xcdatamodeld */,
+				DC6415F42BE5559D00582EFB /* DataController.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DC6415FC2BE556D400582EFB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DC6415FA2BE556C400582EFB /* CountryInfo.swift */,
+				DC6415FD2BE556E900582EFB /* CountryRegion.swift */,
+				DC6415FF2BE556F300582EFB /* LocationManager.swift */,
+				DC6416012BE556FC00582EFB /* BinaryDocument.swift */,
+				DC6416032BE5570500582EFB /* ImagePickerView.swift */,
+				DC6416052BE5570D00582EFB /* Utils.swift */,
+				DC6416072BE5571400582EFB /* TimezoneHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC6415822BE5514E00582EFB /* Preview Assets.xcassets in Resources */,
+				DC64160A2BE5572600582EFB /* Settings.bundle in Resources */,
 				DC64157E2BE5514E00582EFB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +226,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC64157C2BE5514D00582EFB /* ContentView.swift in Sources */,
+				DC6415F92BE555BA00582EFB /* Database.xcdatamodeld in Sources */,
+				DC6416002BE556F300582EFB /* LocationManager.swift in Sources */,
+				DC6415E12BE5551900582EFB /* EventRowView.swift in Sources */,
+				DC6415EB2BE5555900582EFB /* ExplorerView.swift in Sources */,
+				DC6415DE2BE5546100582EFB /* ItineraryView.swift in Sources */,
+				DC6416082BE5571400582EFB /* TimezoneHelper.swift in Sources */,
+				DC6415F12BE5558300582EFB /* MapView.swift in Sources */,
+				DC6415E72BE5554700582EFB /* EventDetailView.swift in Sources */,
+				DC6416022BE556FC00582EFB /* BinaryDocument.swift in Sources */,
+				DC6415FE2BE556E900582EFB /* CountryRegion.swift in Sources */,
+				DC6415F32BE5558C00582EFB /* MapSearchView.swift in Sources */,
+				DC6415EF2BE5557900582EFB /* CountryDetailView.swift in Sources */,
+				DC6415FB2BE556C400582EFB /* CountryInfo.swift in Sources */,
 				DC64157A2BE5514D00582EFB /* EmmetApp.swift in Sources */,
+				DC6415ED2BE5556500582EFB /* CountryRowView.swift in Sources */,
+				DC6415E52BE5553400582EFB /* EventEditView.swift in Sources */,
+				DC6416062BE5570D00582EFB /* Utils.swift in Sources */,
+				DC6415E32BE5552700582EFB /* EventAddView.swift in Sources */,
+				DC6415F52BE5559D00582EFB /* DataController.swift in Sources */,
+				DC6415E92BE5555000582EFB /* DocumentView.swift in Sources */,
+				DC6416042BE5570500582EFB /* ImagePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +380,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Emmet/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location will be used for dynamic address searcing, phone calling and map services.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -282,9 +391,10 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -292,10 +402,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.kylegraham.Emmet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,6 +423,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Emmet/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location will be used for dynamic address searcing, phone calling and map services.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -320,9 +434,10 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -330,10 +445,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.kylegraham.Emmet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -359,6 +475,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC6415F72BE555BA00582EFB /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC6415F82BE555BA00582EFB /* Database.xcdatamodel */,
+			);
+			currentVersion = DC6415F82BE555BA00582EFB /* Database.xcdatamodel */;
+			name = Database.xcdatamodeld;
+			path = /Users/kylegraham/Desktop/Emmet/Emmet/Data/Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DC64156E2BE5514C00582EFB /* Project object */;
 }

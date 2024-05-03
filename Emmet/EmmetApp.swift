@@ -1,17 +1,26 @@
-//
-//  EmmetApp.swift
-//  Emmet
-//
-//  Created by Kyle Graham on 4/5/2024.
-//
-
 import SwiftUI
 
 @main
 struct EmmetApp: App {
+    @StateObject private var dataController = DataController()
+    @StateObject var locationManager: LocationManager = .init()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                ItineraryView()
+                    .tabItem {
+                        Label("Itinerary", systemImage: "text.book.closed")
+                    }
+                    .environment(\.managedObjectContext, dataController.container.viewContext)
+                    .environmentObject(locationManager)
+                ExplorerView()
+                    .tabItem {
+                        Label("Explorer", systemImage: "globe.americas")
+                    }
+                    .environment(\.managedObjectContext, dataController.container.viewContext)
+                    .environmentObject(locationManager)
+            }
         }
     }
 }
