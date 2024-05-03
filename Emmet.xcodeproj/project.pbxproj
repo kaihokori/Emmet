@@ -30,7 +30,7 @@
 		DC6416062BE5570D00582EFB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6416052BE5570D00582EFB /* Utils.swift */; };
 		DC6416082BE5571400582EFB /* TimezoneHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6416072BE5571400582EFB /* TimezoneHelper.swift */; };
 		DC64160A2BE5572600582EFB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC6416092BE5572600582EFB /* Settings.bundle */; };
-		DC7F0A942BE5644D006FE2ED /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC7F0A922BE5644D006FE2ED /* Database.xcdatamodeld */; };
+		DC7F0A962BE5667E006FE2ED /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC7F0A922BE5644D006FE2ED /* Database.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -226,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7F0A962BE5667E006FE2ED /* Database.xcdatamodeld in Sources */,
 				DC6416002BE556F300582EFB /* LocationManager.swift in Sources */,
 				DC6415E12BE5551900582EFB /* EventRowView.swift in Sources */,
 				DC6415EB2BE5555900582EFB /* ExplorerView.swift in Sources */,
@@ -233,7 +234,6 @@
 				DC6416082BE5571400582EFB /* TimezoneHelper.swift in Sources */,
 				DC6415F12BE5558300582EFB /* MapView.swift in Sources */,
 				DC6415E72BE5554700582EFB /* EventDetailView.swift in Sources */,
-				DC7F0A942BE5644D006FE2ED /* Database.xcdatamodeld in Sources */,
 				DC6416022BE556FC00582EFB /* BinaryDocument.swift in Sources */,
 				DC6415FE2BE556E900582EFB /* CountryRegion.swift in Sources */,
 				DC6415F32BE5558C00582EFB /* MapSearchView.swift in Sources */,
